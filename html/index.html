@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="../css/styles.css">
+    <title>Leonel Veiculos</title>
+</head>
+<body>
+    <header>
+        <img class="imglogo" src="../imagem/Logo.png"/>
+        <nav class="Navegacao">
+            <a href="index.html" class="txtnav">Inicio</a>
+            <a href="sobre.html" class="txtnav">Sobre</a>
+        </nav>    
+    </header>
+        <div class="cont">         
+          <div class="wrapper">
+            <img class="imgbanner" src="../imagem/logoestacionamentotrasp.png">
+            <br>
+            <div>
+              <h3 class="tituloinput">Informações Principais</h3> 
+              <input type="text" id="name" placeholder="Nome do veículo" autocomplete="off">
+                <input type="number" id="licence" placeholder="Números da placa" autocomplete="off">
+                <button id="send" Class="btnlimpar" type="reset">Limpar❌</button>
+            </div>
+            
+              <h3 class="tituloradio">Cor do Veiculo</h3>
+              <div class="form-group">
+                <input class="radio" name="theradio" value='Branco' id="radio1" type='radio'/>
+                <label for="radio1">Branco</label>
+              </div>
+              <div class="form-group">
+                <input class="radio" name="theradio" value='Preto' id="radio1" type='radio'/>
+                <label for="radio1">Preto</label>
+              </div>
+              <div class="form-group">
+                <input class="radio" name="theradio" value='Prata' id="radio1" type='radio'/>
+                <label for="radio1">Prata</label>
+              </div>
+              <div class="form-group">
+                <input class="radio" name="theradio" value='Outros'id="radio2" type='radio'/>
+                <label for="radio2">Outro</label>
+              </div>
+              <h3 class="tituloradio">Situação do Seguro</h3>
+              <div class="form-group">
+                <input class="checkbox" name="seguro" id="checkbox1" value="Sim" type='radio'/>
+                <label for="checkbox1">Tenho seguro</label>
+              </div>
+              <div class="form-group">
+                <input class="checkbox" name="seguro" id="checkbox2" value="Não" type='radio'/>
+                <label for="checkbox2">Não tenho seguro</label>
+              </div>               
+              <div>
+                <label for="Data">Data</label>
+                  <input class="date"type='date'/>
+                <button id="send" class="btnsalvar">Salvar🚩</button>
+              </div>
+          </div>
+          <div class="contb">
+            <table border="1">
+              <tr>
+                <td>Nome</td>
+                <td>Placa</td>
+                <td>Cor</td>
+                <td>Seguro</td>
+                <td>Ações</td>
+                <td>Data</td>
+                <td>#</td>
+              </tr>
+              <tr>
+                <td>Gol</td>
+                <td>422</td>
+                <td>Preto</td>
+                <td>Sim</td>
+                <td>10:20/12:54</td> 
+                <td>12/09</td>
+                <td><button id="send" class ="btnexcluir"><font size=-2>Excluir</font></button></td>
+              </tr>
+              <tr>
+                <td>Uno</td>
+                <td>648</td>
+                <td>Prata</td>
+                <td>Não</td>
+                <td>13:46/15:19</td> 
+                <td>15/09</td>
+                <td><button id="send" class ="btnexcluir1"><font size=-2>Excluir</font></button></td>
+              </tr>
+              <tr>
+                <td>Saveiro</td>
+                <td>781</td>
+                <td>Outro</td>
+                <td>Não</td>
+                <td>18:17/20:20</td>  
+                <td>29/09</td>
+                <td><button id="send" class ="btnexcluir2"><font size=-2>Excluir</font></button></td>
+              </tr>
+              <tr>
+                <td>Civic</td>
+                <td>263</td>
+                <td>Branco</td>
+                <td>Sim</td>
+                <td>17:33/21:39</td>  
+                <td>01/10</td>
+                <td><button id="send" class ="btnexcluir3"><font size=-2>Excluir</font></button></td>
+              </tr>
+              <tr>
+                <td>Argo</td>
+                <td>194</td>
+                <td>Preto</td>
+                <td>Não</td>
+                <td>16:31/19:02</td>  
+                <td>02/10</td>
+                <td><button id="send" class ="btnexcluir4"><font size=-2>Excluir</font></button></td>
+              </tr>
+            </table>
+          </div>
+        </div>
+        
+    <footer>
+        <a class="txtfoot">Copyright © 2022 Mateus Leonel</a>
+    </footer>
+    
+</body>
+
+</html>
